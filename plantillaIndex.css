@@ -14,13 +14,24 @@ header {
     justify-content: space-between;
 }
 h1 {
-    color: #fcd555ae;
+    color: #000000b4;
+    font-size: 54px;
+    margin: 0px 0px;
+}
+#Seache {
+    color: #f7c317b4;
     font-size: 64px;
     margin: 0px 0px;
 }
 nav {
-    background-color: #f2f2f2;
+    background-color: #6a6868;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#indice {
+    background-color: #f7c317b4;
 }
 section {
     margin-bottom: 20px;
