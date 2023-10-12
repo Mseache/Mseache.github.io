@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=East+Sea+Dokdo&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    font-family: 'AR One Sans', sans-serif;
 }
-header, footer {
-    background-color: #333;
+header {
+    background: linear-gradient(to right, #56565699,#8a898999,  #f2f2f2);
     color: white;
     padding: 10px;
-    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1 {
+    color: #fcd555ae;
+    font-size: 64px;
+    margin: 0px 0px;
 }
 nav {
     background-color: #f2f2f2;
@@ -23,4 +33,12 @@ article {
 aside {
     background-color: #f2f2f2;
     padding: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
