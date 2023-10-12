@@ -36,11 +36,26 @@ nav {
 section {
     margin-bottom: 20px;
 }
-article {
-    border: 1px solid #ddd;
+.articulos {
+    border: 2px solid #0c0c0c;
+    background-color: #a8a6a6;
     padding: 10px;
     margin-bottom: 10px;
+   
 }
+:hover.articulos {
+    border: 2px solid #0c0c0c;
+    background-color: #f7c317b4;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 aside {
     background-color: #f2f2f2;
     padding: 10px;
