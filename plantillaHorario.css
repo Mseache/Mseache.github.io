@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=East+Sea+Dokdo&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-family: 'AR One Sans', sans-serif;
+}
+header {
+    background: linear-gradient(to right, #56565699,#8a898999,  #f2f2f2);
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1 {
+    color: #000000b4;
+    font-size: 54px;
+    margin: 0px 0px;
+}
+#Seache {
+    color: #f7c317b4;
+    font-size: 64px;
+    margin: 0px 0px;
+}
+nav {
+    background-color: #6a6868;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#indice {
+    background-color: #f7c317b4;
+}
+section {
+    margin-bottom: 20px;
+}
+.articulos {
+    border: 2px solid #0c0c0c;
+    background-color: #a8a6a6;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+:hover.articulos {
+    border: 2px solid #0c0c0c;
+    background-color: #f7c317b4;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+aside {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
