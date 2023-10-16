@@ -30,7 +30,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 }
-#indice {
+.indice {
     background-color: #f7c317b4;
 }
 section {
@@ -48,7 +48,6 @@ section {
     background-color: #f7c317b4;
     padding: 10px;
     margin-bottom: 10px;
-    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
